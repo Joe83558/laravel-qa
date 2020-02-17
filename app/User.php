@@ -45,4 +45,5 @@ class User extends Authenticatable
         $this->attribute["title"] = $value;
         $this->attributes["slug"] = Str::slug($value);
     }
+    
 }
